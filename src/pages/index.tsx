@@ -1,12 +1,12 @@
-import { Inter } from "@next/font/google";
-import styles from "@/styles/Home.module.css";
+import { Inter } from '@next/font/google'
+import styles from '@/styles/Home.module.css'
 
 type Props = {
-  title: string;
-};
+  title: string
+}
 
-const foo = "bla";
+const bla = 'var'
 
-export default function Home({ title = "React Avançado" }: Props) {
-  return <h1>{title}</h1>;
+export default function Home({ title = 'React Avançado' }: Props) {
+  return <h1>{title}</h1>
 }
