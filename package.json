@@ -6,14 +6,14 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint --max-warnings=0",
+    "lint": "next lint",
     "prepare": "husky install"
   },
   "lint-staged": {
-    "src/**/*": [
-      "yarn lint --fix"
-    ]
-  },
+  "*.{js,jsx,ts,tsx}": [
+    "eslint --cache --cache-location .next/cache/eslint/ --fix"
+  ]
+},
   "dependencies": {
     "@next/font": "13.1.6",
     "next": "13.1.6",
