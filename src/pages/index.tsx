@@ -3,5 +3,10 @@ type Props = {
 }
 
 export default function Home({ title = 'React Avançado' }: Props) {
-  return <h1>{title}</h1>
+  return (
+    <>
+      <h1>{title}</h1>
+      <span>hahaha</span>
+    </>
+  )
 }
