@@ -13,7 +13,7 @@
   },
   "lint-staged": {
     "*.{jsx,ts,tsx}": [
-      "eslint --cache --cache-location .next/cache/eslint/ --fix", "yarn test --bail"
+      "eslint --cache --cache-location .next/cache/eslint/ --fix", "yarn test --findRelatedTests --bail"
     ]
   },
   "dependencies": {
